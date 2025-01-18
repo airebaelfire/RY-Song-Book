@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF13F5742A790EFF005D0706 /* AddSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13F5732A790EFF005D0706 /* AddSongView.swift */; };
+		FF7D0E272B1985AC00BEE3D8 /* ChordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D0E262B1985AC00BEE3D8 /* ChordView.swift */; };
+		FFA8EC742A9E59AB006A3B89 /* Chords.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFA8EC732A9E59AB006A3B89 /* Chords.bundle */; };
+		FFB6D5752A7523A2008046D6 /* Stars.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB6D5742A7523A2008046D6 /* Stars.json */; };
+		FFB6D5792A75360E008046D6 /* Travel.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB6D5782A75360E008046D6 /* Travel.json */; };
+		FFC670CE2A74680D00715C45 /* RY_Song_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC670CD2A74680D00715C45 /* RY_Song_BookApp.swift */; };
+		FFC670D02A74680D00715C45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC670CF2A74680D00715C45 /* ContentView.swift */; };
+		FFC670D22A74680F00715C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC670D12A74680F00715C45 /* Assets.xcassets */; };
+		FFC670D62A74680F00715C45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC670D52A74680F00715C45 /* Preview Assets.xcassets */; };
+		FFC670DD2A746C6500715C45 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC670DC2A746C6500715C45 /* SongView.swift */; };
+		FFC670DF2A747C4500715C45 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC670DE2A747C4500715C45 /* Song.swift */; };
+		FFF736802C0A75D3006A6571 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF7367F2C0A75D3006A6571 /* PersistenceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF13F5732A790EFF005D0706 /* AddSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSongView.swift; sourceTree = "<group>"; };
+		FF13F5772A791EB0005D0706 /* Chords.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Chords.bundle; path = "RY Song Book/Chords.bundle"; sourceTree = SOURCE_ROOT; };
+		FF7D0E262B1985AC00BEE3D8 /* ChordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordView.swift; sourceTree = "<group>"; };
+		FFA8EC732A9E59AB006A3B89 /* Chords.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Chords.bundle; path = "RY Song Book/Chords.bundle"; sourceTree = SOURCE_ROOT; };
+		FFB6D5742A7523A2008046D6 /* Stars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Stars.json; sourceTree = "<group>"; };
+		FFB6D5782A75360E008046D6 /* Travel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Travel.json; sourceTree = "<group>"; };
+		FFC670CA2A74680D00715C45 /* RY Song Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RY Song Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC670CD2A74680D00715C45 /* RY_Song_BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RY_Song_BookApp.swift; sourceTree = "<group>"; };
+		FFC670CF2A74680D00715C45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFC670D12A74680F00715C45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFC670D32A74680F00715C45 /* RY_Song_Book.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RY_Song_Book.entitlements; sourceTree = "<group>"; };
+		FFC670D52A74680F00715C45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFC670DC2A746C6500715C45 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
+		FFC670DE2A747C4500715C45 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		FFEA09CE2AA5C72000846E93 /* RY-Song-Book-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "RY-Song-Book-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FFF7367F2C0A75D3006A6571 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFC670C72A74680D00715C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFC670C12A74680D00715C45 = {
+			isa = PBXGroup;
+			children = (
+				FFC670CC2A74680D00715C45 /* RY Song Book */,
+				FFC670CB2A74680D00715C45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFC670CB2A74680D00715C45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFC670CA2A74680D00715C45 /* RY Song Book.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFC670CC2A74680D00715C45 /* RY Song Book */ = {
+			isa = PBXGroup;
+			children = (
+				FFEA09CE2AA5C72000846E93 /* RY-Song-Book-Info.plist */,
+				FFC670CD2A74680D00715C45 /* RY_Song_BookApp.swift */,
+				FFF7367F2C0A75D3006A6571 /* PersistenceController.swift */,
+				FFB6D5742A7523A2008046D6 /* Stars.json */,
+				FFB6D5782A75360E008046D6 /* Travel.json */,
+				FFC670CF2A74680D00715C45 /* ContentView.swift */,
+				FFC670DC2A746C6500715C45 /* SongView.swift */,
+				FF7D0E262B1985AC00BEE3D8 /* ChordView.swift */,
+				FF13F5732A790EFF005D0706 /* AddSongView.swift */,
+				FFC670DE2A747C4500715C45 /* Song.swift */,
+				FFA8EC732A9E59AB006A3B89 /* Chords.bundle */,
+				FFC670D12A74680F00715C45 /* Assets.xcassets */,
+				FFC670D32A74680F00715C45 /* RY_Song_Book.entitlements */,
+				FFC670D42A74680F00715C45 /* Preview Content */,
+			);
+			path = "RY Song Book";
+			sourceTree = "<group>";
+		};
+		FFC670D42A74680F00715C45 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF13F5772A791EB0005D0706 /* Chords.bundle */,
+				FFC670D52A74680F00715C45 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFC670C92A74680D00715C45 /* RY Song Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC670D92A74680F00715C45 /* Build configuration list for PBXNativeTarget "RY Song Book" */;
+			buildPhases = (
+				FFC670C62A74680D00715C45 /* Sources */,
+				FFC670C72A74680D00715C45 /* Frameworks */,
+				FFC670C82A74680D00715C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RY Song Book";
+			productName = "RY Song Book";
+			productReference = FFC670CA2A74680D00715C45 /* RY Song Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFC670C22A74680D00715C45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FFC670C92A74680D00715C45 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FFC670C52A74680D00715C45 /* Build configuration list for PBXProject "RY Song Book" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFC670C12A74680D00715C45;
+			productRefGroup = FFC670CB2A74680D00715C45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFC670C92A74680D00715C45 /* RY Song Book */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFC670C82A74680D00715C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA8EC742A9E59AB006A3B89 /* Chords.bundle in Resources */,
+				FFB6D5752A7523A2008046D6 /* Stars.json in Resources */,
+				FFB6D5792A75360E008046D6 /* Travel.json in Resources */,
+				FFC670D62A74680F00715C45 /* Preview Assets.xcassets in Resources */,
+				FFC670D22A74680F00715C45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFC670C62A74680D00715C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC670DF2A747C4500715C45 /* Song.swift in Sources */,
+				FF7D0E272B1985AC00BEE3D8 /* ChordView.swift in Sources */,
+				FFC670DD2A746C6500715C45 /* SongView.swift in Sources */,
+				FFF736802C0A75D3006A6571 /* PersistenceController.swift in Sources */,
+				FFC670D02A74680D00715C45 /* ContentView.swift in Sources */,
+				FF13F5742A790EFF005D0706 /* AddSongView.swift in Sources */,
+				FFC670CE2A74680D00715C45 /* RY_Song_BookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FFC670D72A74680F00715C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFC670D82A74680F00715C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FFC670DA2A74680F00715C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RY Song Book/RY_Song_Book.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RY Song Book/Preview Content\"";
+				DEVELOPMENT_TEAM = R366SCAPF4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RY-Song-Book-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 2.0;
+				"MARKETING_VERSION[sdk=iphoneos*]" = 2.5;
+				"MARKETING_VERSION[sdk=macosx*]" = 2.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "zayn.dev.RY-Song-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFC670DB2A74680F00715C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RY Song Book/RY_Song_Book.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RY Song Book/Preview Content\"";
+				DEVELOPMENT_TEAM = R366SCAPF4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RY-Song-Book-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 2.0;
+				"MARKETING_VERSION[sdk=iphoneos*]" = 2.5;
+				"MARKETING_VERSION[sdk=macosx*]" = 2.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "zayn.dev.RY-Song-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFC670C52A74680D00715C45 /* Build configuration list for PBXProject "RY Song Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC670D72A74680F00715C45 /* Debug */,
+				FFC670D82A74680F00715C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC670D92A74680F00715C45 /* Build configuration list for PBXNativeTarget "RY Song Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC670DA2A74680F00715C45 /* Debug */,
+				FFC670DB2A74680F00715C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFC670C22A74680D00715C45 /* Project object */;
+}
