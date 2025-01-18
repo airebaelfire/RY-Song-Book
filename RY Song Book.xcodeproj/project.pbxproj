@@ -10,7 +10,6 @@
 		FF13F5742A790EFF005D0706 /* AddSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13F5732A790EFF005D0706 /* AddSongView.swift */; };
 		FF7D0E272B1985AC00BEE3D8 /* ChordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D0E262B1985AC00BEE3D8 /* ChordView.swift */; };
 		FFA8EC742A9E59AB006A3B89 /* Chords.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFA8EC732A9E59AB006A3B89 /* Chords.bundle */; };
-		FFB6D5752A7523A2008046D6 /* Stars.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB6D5742A7523A2008046D6 /* Stars.json */; };
 		FFB6D5792A75360E008046D6 /* Travel.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB6D5782A75360E008046D6 /* Travel.json */; };
 		FFC670CE2A74680D00715C45 /* RY_Song_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC670CD2A74680D00715C45 /* RY_Song_BookApp.swift */; };
 		FFC670D02A74680D00715C45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC670CF2A74680D00715C45 /* ContentView.swift */; };
@@ -26,7 +25,6 @@
 		FF13F5772A791EB0005D0706 /* Chords.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Chords.bundle; path = "RY Song Book/Chords.bundle"; sourceTree = SOURCE_ROOT; };
 		FF7D0E262B1985AC00BEE3D8 /* ChordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordView.swift; sourceTree = "<group>"; };
 		FFA8EC732A9E59AB006A3B89 /* Chords.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Chords.bundle; path = "RY Song Book/Chords.bundle"; sourceTree = SOURCE_ROOT; };
-		FFB6D5742A7523A2008046D6 /* Stars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Stars.json; sourceTree = "<group>"; };
 		FFB6D5782A75360E008046D6 /* Travel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Travel.json; sourceTree = "<group>"; };
 		FFC670CA2A74680D00715C45 /* RY Song Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RY Song Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC670CD2A74680D00715C45 /* RY_Song_BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RY_Song_BookApp.swift; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 				FFEA09CE2AA5C72000846E93 /* RY-Song-Book-Info.plist */,
 				FFC670CD2A74680D00715C45 /* RY_Song_BookApp.swift */,
 				FFF7367F2C0A75D3006A6571 /* PersistenceController.swift */,
-				FFB6D5742A7523A2008046D6 /* Stars.json */,
 				FFB6D5782A75360E008046D6 /* Travel.json */,
 				FFC670CF2A74680D00715C45 /* ContentView.swift */,
 				FFC670DC2A746C6500715C45 /* SongView.swift */,
@@ -156,7 +153,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFA8EC742A9E59AB006A3B89 /* Chords.bundle in Resources */,
-				FFB6D5752A7523A2008046D6 /* Stars.json in Resources */,
 				FFB6D5792A75360E008046D6 /* Travel.json in Resources */,
 				FFC670D62A74680F00715C45 /* Preview Assets.xcassets in Resources */,
 				FFC670D22A74680F00715C45 /* Assets.xcassets in Resources */,
