@@ -26,7 +26,11 @@ struct SongView: View {
     @Binding var privateMode: Bool
     init(song: Song, _ privateMode: Binding<Bool>) {
         self.song = song
-        self._capoKey = State<Int>(initialValue: capos[Int(song.capo)])
+        if (song.capo != -1) {
+            self._capoKey = State<Int>(initialValue: capos[Int(song.capo)])
+        } else {
+            self._capoKey = State<Int>(initialValue: 0)
+        }
         self._privateMode = privateMode
     }
     var body: some View {
@@ -51,7 +55,7 @@ struct SongView: View {
                     Text(song.title).font(.largeTitle)
                 }
                 HStack {
-                    Text("Capo \(song.capo)").font(.system(size: 17))
+                    Text("Capo \(song.capo == -1 ? "Variable" : String(song.capo))").font(.system(size: 17))
                     Image(systemName: "chevron.up")
                         .rotationEffect(showChords ? .zero : .degrees(180))
                 }.onTapGesture {
@@ -230,8 +234,8 @@ struct SongView: View {
                     Spacer()
                 }
             }.padding()
-            .frame(width: CGFloat(song.song.count))
-            .padding(.horizontal, 50)
+            .fixedSize()
+            .padding((song.song.split(separator: "\n").count > 13) ? (10.0*CGFloat((song.song.split(separator: "\n").count - 13))) : 0)
         )
         renderer.scale = displayScale
         if let uiimage = renderer.uiImage {
@@ -270,7 +274,7 @@ struct SongView: View {
 struct SongView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationStack {
-            SongView(song: Song(title: "Somewhere"), .constant(true))
+            SongView(song: Song(title: "Somewhere", capo: -1), .constant(true))
         }
     }
 }

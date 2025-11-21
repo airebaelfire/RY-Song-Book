@@ -122,7 +122,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					FFC670C92A74680D00715C45 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -214,6 +214,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = R366SCAPF4;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -234,6 +235,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -274,6 +276,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = R366SCAPF4;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -287,6 +290,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -302,9 +306,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"RY Song Book/Preview Content\"";
-				DEVELOPMENT_TEAM = R366SCAPF4;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "RY-Song-Book-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
@@ -325,8 +330,8 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 2.0;
-				"MARKETING_VERSION[sdk=iphoneos*]" = 2.5;
-				"MARKETING_VERSION[sdk=macosx*]" = 2.5;
+				"MARKETING_VERSION[sdk=iphoneos*]" = 2.7.1;
+				"MARKETING_VERSION[sdk=macosx*]" = 2.7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "zayn.dev.RY-Song-Book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -349,9 +354,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"RY Song Book/Preview Content\"";
-				DEVELOPMENT_TEAM = R366SCAPF4;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "RY-Song-Book-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
@@ -372,8 +378,8 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 2.0;
-				"MARKETING_VERSION[sdk=iphoneos*]" = 2.5;
-				"MARKETING_VERSION[sdk=macosx*]" = 2.5;
+				"MARKETING_VERSION[sdk=iphoneos*]" = 2.7.1;
+				"MARKETING_VERSION[sdk=macosx*]" = 2.7.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "zayn.dev.RY-Song-Book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

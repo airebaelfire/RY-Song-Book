@@ -76,15 +76,19 @@ struct ChordView: View {
                         GroupBox {
                             InnerGroupView(String(split[0]))
                         }.padding(.horizontal, 5)
-                        if (split[1].first != nil && split[1].first != "\n") {
-                            Text("x\(String(split[1].first!))")
-                                .padding(.trailing)
-                                .padding(.top, 5)
-                                .bold()
-                        }
+                        Text("\(String(split[1]).split(separator: "\n")[0])")
+                            .padding(.trailing)
+                            .padding(.top, 5)
+                            .bold()
+//                        if (split[1].first != nil && split[1].first != "\n") {
+//                            Text("x\(String(split[1].first!))")
+//                                .padding(.trailing)
+//                                .padding(.top, 5)
+//                                .bold()
+//                        }
                     }
                     if (split[1].first != nil) {
-                        InnerGroupView(String(split[1].first == "\n" ? split[1] : split[1].dropFirst()))
+                        InnerGroupView(String(String(split[1]).split(separator: "\n").count > 1 ? String(split[1]).split(separator: "\n")[1...].joined(separator: "\n") : ""))
                             .padding(.horizontal)
                     }
                 } else {
@@ -140,5 +144,5 @@ struct ChordView: View {
 }
 
 #Preview {
-    ChordView(song: Song(), chords: .constant([]), capoKey: .constant(2), hideChords: .constant(false))
+    ChordView(song: Song(title: "Agapa Me", origin: "?", song: "{A[Am]gapa Me ia na se agap[F]o\nAn den Me [C]agapas i agapi [G]mu\nden bor[Am]i den bori na se [F]ftasi\nMe kanenan t[C]ropo i gnorize to af[G]to o i pireti}x2\nHi\nhi\n{[Am]O i[F]e tis [C]ipark[G]sis}2", capo: 0, strummingpattern: ""), chords: .constant([]), capoKey: .constant(2), hideChords: .constant(false))
 }
